@@ -1,5 +1,7 @@
+package com.aluracursos.screenmatch.modelos;
+
 public class Pelicula {
-   String nombre;
+   public String nombre;
    int fechaDeLanzamiento;
    int duracionEnMinutos;
    boolean incluidoEnElPlan;
@@ -9,21 +11,21 @@ public class Pelicula {
    //creamos metodo int, queremos que nos de algo entonces ponemos get
    //y nos sale autocompletar con la variable que queremos
    // recordar que los metodos int necesitan return
-   int getTotalDeEvaluaciones(){
+   public int getTotalDeEvaluaciones(){
       return totalDeEvaluaciones;
    }
 
-   void muestraFichaTernica(){
+   public void muestraFichaTernica(){
       System.out.println("El nombre de la película es: " + nombre  );
       System.out.println("Su fecha de lanzamiento es: "+ fechaDeLanzamiento);
       System.out.println("Duración en minutos: " + duracionEnMinutos);
    }
-   void evalua(double nota){
+   public void evalua(double nota){
       sumaDeLasEvaluaciones += nota;
       totalDeEvaluaciones ++;
    }
    //en esta nueva nos va a dar error hasta que agreguemos return- en void no
-   double calculaMedia(){
+   public double calculaMedia(){
       return sumaDeLasEvaluaciones / totalDeEvaluaciones;
    }
 }
