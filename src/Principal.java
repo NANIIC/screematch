@@ -3,9 +3,10 @@ import com.aluracursos.screenmatch.modelos.Pelicula;
 public class Principal {
     public static void main(String[] args) {
         Pelicula miPelicula = new Pelicula(); //crea nueva instancia -new espacio en la memory para almacenar datos dentro de ese objeto (encapsula
-        miPelicula.nombre ="Encanto";
-        miPelicula.fechaDeLanzamiento = 2021;
-        miPelicula.duracionEnMinutos = 120;
+        miPelicula.setNombre("Encanto");
+        miPelicula.setFechaDeLanzamiento(2021);
+        miPelicula.setDuracionEnMinutos(120);
+        miPelicula.setIncluidoEnElPlan(true);
 
         miPelicula.muestraFichaTernica();
         miPelicula.evalua(10);
@@ -21,14 +22,16 @@ public class Principal {
 
 
 
+//hola
 
 
 
-//        com.aluracursos.screenmatch.modelos.Pelicula otraPelicula = new  com.aluracursos.screenmatch.modelos.Pelicula();
-//        otraPelicula.nombre = "Matrix";
-//        otraPelicula.fechaDeLanzamiento = 1998;
-//        otraPelicula.duracionEnMinutos = 180;
-//        otraPelicula.muestraFichaTernica();
+//        Pelicula otraPelicula = new Pelicula();
+//        otraPelicula.nombre= "Matrix";
+//        otraPelicula.FechaDeLanzamiento= 1998;
+//        otraPelicula.DuracionEnMinutos= 180;
+//
+//        otraPelicula.muestraFichaTernica():
 
     }
 }
