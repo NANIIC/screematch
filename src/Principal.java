@@ -4,13 +4,14 @@ import com.aluracursos.screenmatch.modelos.Episodio;
 import com.aluracursos.screenmatch.modelos.Pelicula;
 import com.aluracursos.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Principal {
     public static void main(String[] args) {
-        Pelicula miPelicula = new Pelicula(); //crea nueva instancia -new espacio en la memory para almacenar datos dentro de ese objeto (encapsula
-        miPelicula.setNombre("Encanto");
+        Pelicula miPelicula = new Pelicula("Encanto"); //crea nueva instancia -new espacio en la memory para almacenar datos dentro de ese objeto (encapsula
         miPelicula.setFechaDeLanzamiento(2021);
         miPelicula.setDuracionEnMinutos(120);
-        miPelicula.setIncluidoEnElPlan(true);
+        System.out.println("Duración de la película: " + miPelicula.getDuracionEnMinutos());
 
         miPelicula.muestraFichaTernica();
         miPelicula.evalua(10);
@@ -29,8 +30,7 @@ public class Principal {
         casaDragon.muestraFichaTernica();
         System.out.println(casaDragon.getDuracionEnMinutos());
 
-        Pelicula otraPelicula = new Pelicula();
-        otraPelicula.setNombre("MAtrix");
+        Pelicula otraPelicula = new Pelicula("Matrix");
         otraPelicula.setFechaDeLanzamiento(1998);
         otraPelicula.setDuracionEnMinutos(180);
 
@@ -51,6 +51,25 @@ public class Principal {
         episodio.setTotalVisualizaciones(50);
 
         filtroRecomendacion.filtra(episodio);
-        
+
+        var peliculaDeBruno= new Pelicula("El señor de los anillos");
+        peliculaDeBruno.setDuracionEnMinutos(180);
+        peliculaDeBruno.setFechaDeLanzamiento(2001);
+
+        //adentro <> nos dice el tipo de array
+        ArrayList<Pelicula> listaDePeliculas = new ArrayList<>();
+        listaDePeliculas.add(peliculaDeBruno);
+        listaDePeliculas.add(miPelicula);
+        listaDePeliculas.add(otraPelicula);
+        System.out.println("Tamaño de la lista: " + listaDePeliculas.size());
+        System.out.println("La primera película es: " + listaDePeliculas.get(0).getNombre());
+        // listaDePeliculas.get(0) nos da la pelicula dentro del array
+        //.getNombre() nos da el nombre de la peli que esta dentro de Titulo
+        // listaDePeliculas.size() nos da el tamaño del array
+
+        //imprimir el array
+        System.out.println(listaDePeliculas.toString());
+        System.out.println("toString de la película: " + listaDePeliculas.get(0).toString());
+
     }
 }
