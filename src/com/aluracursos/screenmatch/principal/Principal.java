@@ -1,3 +1,5 @@
+package com.aluracursos.screenmatch.principal;
+
 import com.aluracursos.screenmatch.calculos.CalculadoraDeTiempo;
 import com.aluracursos.screenmatch.calculos.FiltroRecomendacion;
 import com.aluracursos.screenmatch.modelos.Episodio;
@@ -63,7 +65,7 @@ public class Principal {
         listaDePeliculas.add(peliculaDeBruno);
         listaDePeliculas.add(miPelicula);
         listaDePeliculas.add(otraPelicula);
-        
+
         System.out.println("Tamaño de la lista: " + listaDePeliculas.size());
         System.out.println("La primera película es: " + listaDePeliculas.get(0).getNombre());
         // listaDePeliculas.get(0) nos da la pelicula dentro del array
