@@ -1,6 +1,6 @@
 package com.aluracursos.screenmatch.modelos;
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo> {
     private String nombre;
     private int fechaDeLanzamiento;
     private int duracionEnMinutos;
@@ -67,4 +67,10 @@ public class Titulo {
 
         return sumaDeLasEvaluaciones / totalDeEvaluaciones;
     }
+    //Compare los titulos para acomodarlos alfabéticamente
+    @Override
+    public int compareTo(Titulo otroTitulo) {
+        return this.getNombre().compareTo(otroTitulo.getNombre());
+    }
+
 }
