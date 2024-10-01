@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a7f33b5c-a802-4f07-8728-7b5414b30754" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/principal/PrincipalConBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/principal/PrincipalConBusqueda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +45,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/BANGHO/Downloads/gson-2.11.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
