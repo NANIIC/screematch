@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7f33b5c-a802-4f07-8728-7b5414b30754" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/excepcion/ErrorEnConversionDeDuracionExeption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/principal/PrincipalConBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/principal/PrincipalConBusqueda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,6 +53,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aluracursos.screenmatch.excepcion" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aluracursos.screenmatch.principal.Principal" />
